@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #e9ebee;
+}
+
+.link {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 15px;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  &.active {
+    color: #ffffff;
+  }
+}
+
+.all-countries {
+  margin: 50px 15px;
+}
+
+.wrapper-filter {
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin-bottom: 16px;
+  height: 50px;
+
+  .input-filter {
+    margin-left: 6px;
+    width: 100%;
+  }
+}
+
+.container-line-chart {
+  margin: 50px auto;
+  width: 90%;
+
+  .line-chart {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+
