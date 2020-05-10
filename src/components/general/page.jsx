@@ -23,7 +23,7 @@ const Page = (props) => {
     const global = generalData['generalData'];
     const countries = generalData['generalDataCountries'];
 
-    if (global.length === 0 || countries.length === 0) {
+    if (global.length === 0) {
         return null;
     }
 
